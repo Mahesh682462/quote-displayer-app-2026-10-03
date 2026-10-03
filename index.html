@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quote App</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f4f4f4; margin: 0; }
+        .quote-container { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 500px; text-align: center; }
+        h1 { color: #333; margin-bottom: 20px; font-size: 1.8em; }
+        .quote-text { font-style: italic; font-size: 1.2em; margin-bottom: 15px; }
+        .quote-author { text-align: right; font-weight: bold; color: #555; }
+        .new-quote-btn { background-color: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 1em; margin-top: 20px; }
+        .new-quote-btn:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="src/app.js"></script>
+</body>
+</html>
